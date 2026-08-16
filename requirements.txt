@@ -1,0 +1,18 @@
+# MATTERS runtime dependencies
+# Tested together on Python 3.13.5.
+# Python 3.11+ is required because the bundled scikit-learn models were saved with 1.8.0.
+
+fastapi==0.128.2
+uvicorn==0.48.0
+pydantic==2.13.4
+requests==2.32.5
+python-dotenv==1.2.2
+
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+joblib==1.5.3
+scikit-learn==1.8.0
+lightgbm==4.6.0
+tables==3.10.2
+threadpoolctl==3.6.0

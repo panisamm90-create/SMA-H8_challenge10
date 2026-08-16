@@ -1,0 +1,47 @@
+{
+  "status": "ready",
+  "model_type": "LightGBM multiclass",
+  "target": "Severity",
+  "features": [
+    "Start_Lat",
+    "Start_Lng",
+    "Temperature(F)",
+    "Humidity(%)",
+    "Pressure(in)",
+    "Visibility(mi)",
+    "Wind_Speed(mph)",
+    "Precipitation(in)",
+    "Weather_Condition",
+    "Junction",
+    "Crossing",
+    "Traffic_Signal",
+    "Stop",
+    "Railway",
+    "Roundabout",
+    "Bump",
+    "Traffic_Calming"
+  ],
+  "weather_categories_count": 145,
+  "classes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "validation_accuracy": 0.8151925464472248,
+  "random_state": 42,
+  "hyperparameters": {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "objective": "multiclass"
+  },
+  "precipitation_pipeline": {
+    "classifier": "c:\\Users\\alisaleh\\Desktop\\EVERYTHING\\python projects\\AIO\\Innoverse_world\\Smart Urban Mobility Patterns Prediction\\backend\\engines\\models\\precipitation_classifier.joblib",
+    "regressor": "c:\\Users\\alisaleh\\Desktop\\EVERYTHING\\python projects\\AIO\\Innoverse_world\\Smart Urban Mobility Patterns Prediction\\backend\\engines\\models\\precipitation_regressor.joblib",
+    "rain_probability_threshold": 0.5,
+    "target_transform": "log1p -> expm1"
+  },
+  "dataset": "..\\..\\dataset\\US_Accidents\\US_Accidents_March23.csv",
+  "notebook_pipeline": "US_Accident_prediction"
+}
