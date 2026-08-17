@@ -46,6 +46,8 @@ The datasets used in MATTERS can be downloaded from the following sources:
 - LA Events Dataset: [Download Dataset](LINK)
 - Vehicle Dataset: [Download Dataset](LINK)
 
+- Extra Trees Model: [Download Model](https://drive.google.com/file/d/1U8nZC_neMWIRla1_IYZHhVFKy52PrKcf/view?usp=share_link)
+
 
 ## Requirements
 
