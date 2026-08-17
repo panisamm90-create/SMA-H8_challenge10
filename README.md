@@ -36,6 +36,16 @@ MATTERS/
 ├── run_all.bat              Start backend + UI
 └── verify_setup.py          Dependency/model diagnostic
 ```
+## Dataset
+
+The datasets used in MATTERS can be downloaded from the following sources:
+
+- METR-LA: [Download Dataset](LINK)
+- Weather Dataset: [Download Dataset](LINK)
+- US Holiday Dataset: [Download Dataset](LINK)
+- LA Events Dataset: [Download Dataset](LINK)
+- Vehicle Dataset: [Download Dataset](LINK)
+
 
 ## Requirements
 
