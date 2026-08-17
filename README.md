@@ -40,11 +40,10 @@ MATTERS/
 
 The datasets used in MATTERS can be downloaded from the following sources:
 
-- METR-LA: [Download Dataset](LINK)
-- Weather Dataset: [Download Dataset](LINK)
-- US Holiday Dataset: [Download Dataset](LINK)
-- LA Events Dataset: [Download Dataset](LINK)
-- Vehicle Dataset: [Download Dataset](LINK)
+- METR-LA: [Download Dataset](https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset)
+- US Holiday Dataset: [Download Dataset](https://www.kaggle.com/datasets/donnetew/us-holiday-dates-2004-2021)
+- LA Events Dataset: [Download Dataset](https://data.lacity.org/City-Infrastructure-Service-Requests/LA-City-Events-2022-2025-/9aw9-mn4p/about_data)
+- Vehicle Dataset: [Download Dataset](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/9df1b18d-d036-4783-a61c-99f1f75b3ac5)
 
 - Extra Trees Model: [Download Model](https://drive.google.com/file/d/1U8nZC_neMWIRla1_IYZHhVFKy52PrKcf/view?usp=share_link)
 
